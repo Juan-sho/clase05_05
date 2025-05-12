@@ -25,6 +25,7 @@ function addStudentTotable(student){
     row.innerHTML=`
     <td${student.name}</td
     <td${student.lastName}</td
-    <td${student.grade}</td>`;
+    <td${student.grade}</td>;
+    <td${student.date}</td>`;
   tableBody.appendChild(row);  
 }

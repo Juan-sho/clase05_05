@@ -4,8 +4,23 @@
     <meta charset="UTF-8" />
     <title>title</title>
 </head>
+       
 <body>
     <h2>Notas Front-End</h2>
+    <div id="average">Promedio general del curso : N/A</div>
+ <style>
+        #average{
+            margin: 16px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #04167c;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            max-width: 200px;
+            color: #04167c  
+        }
+    </style>
 <form id="studentForm">
     <div>
         <label for="name">Nombre</label>
@@ -20,8 +35,8 @@
         <input type="number" id="grade" step="0.1"min="1"max="7"required>
        </div>
     <div>
-        <Label for="date" id="time">Fecha </Label>
-        <input type="date"id="time_">
+        <Label for="date">Fecha </Label>
+        <input type="date"id="date"required>
     </div>   
        <button type="submit">Guardar alumno</button>
 </form>
